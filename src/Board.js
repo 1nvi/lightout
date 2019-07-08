@@ -74,7 +74,6 @@ class Board extends Component {
       }
     }
 
-    flipCell(y, x);
     flipCell(y, x - 1);
     flipCell(y, x + 1);
     flipCell(y - 1, x);
