@@ -67,8 +67,6 @@ class Board extends Component {
     let [y, x] = coord.split("-").map(Number);
 
     function flipCell(y, x) {
-      // if this coord is actually on board, flip it
-
       if (x >= 0 && x < ncols && y >= 0 && y < nrows) {
         board[y][x] = !board[y][x];
       }
